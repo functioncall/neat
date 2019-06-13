@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-
-from app_runner import app_runner as ar
+from core.app_runner import app_runner as ar
 
 app_runner = ar.AppRunner()
 

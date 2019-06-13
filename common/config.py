@@ -103,7 +103,28 @@ configurations = {
                 "html",
                 "pub"
             ],
-            "subfolders": {}
+            "subfolders": {
+                "keys": {
+                    "extension_list": ["pem", "pub"],
+                    "subfolders": {}
+                },
+                "xml": {
+                    "extension_list": ["json", "xml"],
+                    "subfolders": {}
+                },
+                "web": {
+                    "extension_list": ["js", "html"],
+                    "subfolders": {}
+                },
+                "python": {
+                    "extension_list": ["py", "ipynb"],
+                    "subfolders": {}
+                },
+                "shell": {
+                    "extension_list": ["sh"],
+                    "subfolders": {}
+                }
+            }
         }
     }
 }

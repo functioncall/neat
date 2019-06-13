@@ -1,6 +1,6 @@
 import os
 
-from app.i_app import App
+from core.app_interface.i_app import App
 from pathlib import Path
 from common import config
 from modules import cleaner

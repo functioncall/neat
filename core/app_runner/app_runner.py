@@ -1,5 +1,5 @@
 
-from app.neat.neat import Neat
+from core.app.neat.neat import Neat
 
 
 class AppRunner:
