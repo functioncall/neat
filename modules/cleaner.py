@@ -40,9 +40,7 @@ class Cleaner:
         return self.source_directory + item
 
     def _get_target_file_path(self, item):
-        target_dir               = self._get_target_directory_path(item)
-
-        return target_dir + item
+        return self._get_target_directory_path(item) + item
 
     def _get_target_directory_path(self, item):
         file                     = self.get_source_file_details(item)
