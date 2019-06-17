@@ -1,4 +1,3 @@
 #!/bin/sh
 
-#python neat.py
-echo "Hello world!"
+python neat.py
