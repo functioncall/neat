@@ -1,6 +1,6 @@
 
 """
-Write something here
+This is the folder configuration file. Extend this according to your need
 """
 configurations = {
     "root": {
@@ -16,6 +16,7 @@ configurations = {
                 "tar",
                 "tgz",
                 "gz",
+                "xz"
                 "txt",
                 "numbers"
             ],
@@ -68,11 +69,13 @@ configurations = {
                 "mov",
                 "png",
                 "jpg",
-                "jpeg"
+                "jpeg",
+                "svg",
+                "gif"
             ],
             "subfolders": {
                 "pictures": {
-                    "extension_list": ["png", "jpg", "jpeg"],
+                    "extension_list": ["png", "jpg", "jpeg", "svg", "gif"],
                     "subfolders": {}
                 },
                 "video": {
@@ -88,7 +91,8 @@ configurations = {
         "software": {
             "extension_list": [
                 "dmg",
-                "pkg"
+                "pkg",
+                "exe"
             ],
             "subfolders": {}
         },

@@ -20,7 +20,7 @@ class Neat(App):
     def _setup_paths(self):
         self.home_dir           = str(Path.home())
         self.source_directory   = self.home_dir + "/Downloads/"
-        self.target_directory   = self.home_dir + "/Desktop/My Files/"
+        self.target_directory   = self.home_dir + "/Desktop/MyFiles/"
 
     def _setup_config(self):
         self.config             = config.configurations["root"]
