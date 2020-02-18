@@ -9,15 +9,15 @@ Neat is a python utility for organizing directories.
 Use the brew package manager.
 
 ```bash
-brew tap functionall/neat  https://github.com/functioncall/homebrew-neat
+brew tap functionall/neat
 
-brew install functioncall/neat/neat
+brew install neat
 ```
 
 ## Usage
 
-```python
-python neat
+```bash
+neat
 ```
 
 ## Contributing
